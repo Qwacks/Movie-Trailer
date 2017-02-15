@@ -6,11 +6,7 @@
        display: block;
     }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
+
     
 }
 
@@ -30,11 +26,7 @@
         width: 50%;
     }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
+
 
 }
 
@@ -46,10 +38,6 @@
         padding-bottom: 10em;
     }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
+
 
 }
