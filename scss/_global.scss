@@ -1,0 +1,60 @@
+// Global Stylesheet
+
+//Background settings
+
+body{
+    background: black; 
+}
+// Color Palette
+$primary-color: aliceblue;
+$secondary-color: purple;
+
+// Typography
+p, h1, h2, li{
+    color: $primary-color;
+    font-family: 'Raleway', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+
+}
+/* Header */
+
+img.title{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2vw;
+}
+
+//links styling
+
+a:link {
+    color: #2588AD; text-decoration: none; 
+}
+a:active {
+    color: #2588AD; text-decoration: none; 
+}
+a:visited {
+    color: #2588AD; text-decoration: underline; 
+}
+a:hover {
+    color: #2588AD; text-decoration: none; 
+}
+
+// Video Player Styling
+video {
+    padding: 10 10 0 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.mejs__time-current {
+    background: rgba(214, 43, 43, 0.9);
+    width: 0;
+}
