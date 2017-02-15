@@ -1,13 +1,42 @@
 // Global Stylesheet
 
+//Background settings
+
+body{
+    background: black; 
+}
 // Color Palette
-$primary-color: gold;
+$primary-color: aliceblue;
 $secondary-color: purple;
 
 // Typography
+p, h1{
+    color: $primary-color;
+}
+
+//Header
+img{
+    width: 100%;
+}
+
+//links styling
+
+a:link {
+    color: #2588AD; text-decoration: underline; 
+}
+a:active {
+    color: #2588AD; text-decoration: underline; 
+}
+a:visited {
+    color: #2588AD; text-decoration: underline; 
+}
+a:hover {
+    color: #2588AD; text-decoration: none; 
+}
 
 // Video Player Styling
 video {
+    padding: 10 10 0 0;
     max-width: 100%;
     width: 100%;
 }
