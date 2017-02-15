@@ -10,14 +10,20 @@ $primary-color: aliceblue;
 $secondary-color: purple;
 
 // Typography
-p, h1{
+p, h1, h2, li{
     color: $primary-color;
+    font-family: 'Raleway', sans-serif;
 }
+
 li{
-    color: $primary-color;
     list-style-type: none;
 }
 
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+
+}
 /* Header */
 
 img.title{
