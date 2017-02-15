@@ -41,12 +41,10 @@
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
 
-/* Header */
-
-img.title{
-    width: 100%;
-    max-width: 500px;
-}
+/* video */
+    section{
+        padding-bottom: 10em;
+    }
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {

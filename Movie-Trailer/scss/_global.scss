@@ -13,16 +13,26 @@ $secondary-color: purple;
 p, h1{
     color: $primary-color;
 }
+li{
+    color: $primary-color;
+    list-style-type: none;
+}
 
+/* Header */
 
+img.title{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2vw;
+}
 
 //links styling
 
 a:link {
-    color: #2588AD; text-decoration: underline; 
+    color: #2588AD; text-decoration: none; 
 }
 a:active {
-    color: #2588AD; text-decoration: underline; 
+    color: #2588AD; text-decoration: none; 
 }
 a:visited {
     color: #2588AD; text-decoration: underline; 
@@ -36,4 +46,9 @@ video {
     padding: 10 10 0 0;
     max-width: 100%;
     width: 100%;
+}
+
+.mejs__time-current {
+    background: rgba(214, 43, 43, 0.9);
+    width: 0;
 }
